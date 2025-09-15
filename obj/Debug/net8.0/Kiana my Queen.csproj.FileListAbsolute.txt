@@ -1,0 +1,14 @@
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\bin\Debug\net8.0\Kiana my Queen.exe
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\bin\Debug\net8.0\Kiana my Queen.deps.json
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\bin\Debug\net8.0\Kiana my Queen.runtimeconfig.json
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\bin\Debug\net8.0\Kiana my Queen.dll
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\bin\Debug\net8.0\Kiana my Queen.pdb
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.AssemblyInfoInputs.cache
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.AssemblyInfo.cs
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.csproj.CoreCompileInputs.cache
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.dll
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\refint\Kiana my Queen.dll
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.pdb
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\Kiana my Queen.genruntimeconfig.cache
+C:\Users\re-pl\source\repos\Kiana my Queen\Kiana my Queen\obj\Debug\net8.0\ref\Kiana my Queen.dll
