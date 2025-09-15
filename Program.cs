@@ -1,6 +1,5 @@
 ﻿namespace QuanLyHocSinhLINQ
 {
-    // Định nghĩa lớp Student
     class Student
     {
         public int Id { get; set; }
@@ -18,7 +17,6 @@
         static void Main(string[] args)
         {
             Console.OutputEncoding = System.Text.Encoding.UTF8;
-            // Tạo danh sách học sinh
             List<Student> students = new List<Student>()
             {
                 new Student { Id = 1, Name = "Anạohfjnajs", Age = 16 },
@@ -28,32 +26,27 @@
                 new Student { Id = 5, Name = "Dưts", Age = 14 }
             };
 
-            // a. In danh sách toàn bộ học sinh
             Console.WriteLine("a. Danh sách toàn bộ học sinh:");
             students.ForEach(s => Console.WriteLine(s));
             Console.WriteLine();
 
-            // b. Tìm học sinh có tuổi từ 15 đến 18
             Console.WriteLine("b. Học sinh có tuổi từ 15 đến 18:");
             var tuoi15_18 = students.Where(s => s.Age >= 15 && s.Age <= 18);
             foreach (var s in tuoi15_18)
                 Console.WriteLine(s);
             Console.WriteLine();
 
-            // c. Tìm học sinh có tên bắt đầu bằng chữ "A"
             Console.WriteLine("c. Học sinh có tên bắt đầu bằng 'A':");
             var tenA = students.Where(s => s.Name.StartsWith("A"));
             foreach (var s in tenA)
                 Console.WriteLine(s);
             Console.WriteLine();
 
-            // d. Tính tổng tuổi của tất cả học sinh
             Console.WriteLine("d. Tổng tuổi của tất cả học sinh:");
             int tongTuoi = students.Sum(s => s.Age);
             Console.WriteLine("Tổng tuổi = " + tongTuoi);
             Console.WriteLine();
 
-            // e. Học sinh có tuổi lớn nhất
             Console.WriteLine("e. Học sinh có tuổi lớn nhất:");
             int tuoiLonNhat = students.Max(s => s.Age);
             var hsLonNhat = students.Where(s => s.Age == tuoiLonNhat);
@@ -61,7 +54,6 @@
                 Console.WriteLine(s);
             Console.WriteLine();
 
-            // f. Sắp xếp danh sách theo tuổi tăng dần
             Console.WriteLine("f. Danh sách học sinh theo tuổi tăng dần:");
             var sapXep = students.OrderBy(s => s.Age);
             foreach (var s in sapXep)
